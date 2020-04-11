@@ -15,7 +15,6 @@ namespace MemoryProtection
 			if (UsingIsoHeap)
 				m_Block = Block | 2;
 		}
-
 		ULONG_PTR BaseAddress()
 		{
 			return m_Block & ~3;
