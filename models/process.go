@@ -11,7 +11,6 @@ type Process struct {
 	Cpu     float64   `json:"cpu"`
 	Memory  float64   `json:"memory"`
 	Started time.Time `json:"started"`
-
 	binds       []string `json:"-"`
 	containerId string   `json:"-"`
 	taskArn     string   `json:"-"`
