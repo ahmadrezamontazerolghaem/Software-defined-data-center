@@ -8,7 +8,6 @@
 #include "error.h" 
 #include "conversions.h"
 #include "memory.h"
-
 void mem_status( MemoryStatus & status )
 {
   // get vm memory stats
