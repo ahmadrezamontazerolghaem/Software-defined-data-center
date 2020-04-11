@@ -8,8 +8,7 @@
 #include <errno.h>
 #include <sys/types.h>
 #include <sys/wait.h> 
- 
-/* exitstatus is used to keep track of any failing calls to kernel-doc,
+ /* exitstatus is used to keep track of any failing calls to kernel-doc,
  * but execution continues. */
 int exitstatus = 0;
 
