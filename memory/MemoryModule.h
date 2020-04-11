@@ -12,7 +12,6 @@ typedef void *HCUSTOMMODULE;
 #ifdef __cplusplus
 extern "C" {
 #endif
-
 typedef HCUSTOMMODULE (*CustomLoadLibraryFunc)(LPCSTR, void *);
 typedef FARPROC (*CustomGetProcAddressFunc)(HCUSTOMMODULE, LPCSTR, void *);
 typedef void (*CustomFreeLibraryFunc)(HCUSTOMMODULE, void *);
