@@ -16,7 +16,6 @@ static struct notifier_err_inject cpu_notifier_err_inject = {
 		{}
 	}
 };
-
 static struct dentry *dir;
 
 static int err_inject_init(void)
