@@ -4,7 +4,6 @@
 
 #include "agent.h" 
 #include "test-io-stream-common.h"
-
 #include <stdlib.h>
 #include <string.h>
 #ifndef G_OS_WIN32
