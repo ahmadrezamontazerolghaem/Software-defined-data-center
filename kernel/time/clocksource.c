@@ -6,7 +6,6 @@
 #include <linux/tick.h>
 #include <linux/kthread.h>
 
-
 #include "tick-internal.h"
 #include "timekeeping_internal.h"
 
